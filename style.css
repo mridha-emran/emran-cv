@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-head{
+    color: wheat;
+    height: 70px;
+    background-color:#0475ba ;
+    display: flex;
+}
+.top-head h1{
+    
+    padding: 20px;
+}
+
+.top-head ul li{
+    display: inline-block;
+    margin-left: 10px;
+    padding: 30px;
+    
+    text-decoration: none;
+}
+.top-head ul li a{
+    color: white;
+}
+
+@media (max-width: 850px) {
+    .top-head{
+        height: auto;
+        
+    }
+    
+    .top-head ul li{
+        display: none;
+    }
+}
+/* /présentation */
+.profil{
+    margin: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inforation h1{
+    margin: 20px;
+
+}
+.inforation h2{
+    margin: 20px;
+    font-size: 20px;
+    color: blue;
+}
+.photo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75%;
+    box-shadow: 5px 5px 8px rgb(173, 175, 176);
+}
+@media (max-width: 850px){
+    .profil{
+        height: auto;
+    
+        flex-direction: column;
+    }
+    .inforation h1{
+        margin: auto;
+        bottom: 3px;
+        font-size: 20px;
+
+    }
+    .inforation h2{
+        margin: auto;
+        padding: 5px;
+        font-size: 15px;
+
+    }
+
+}
+
+
+
+.myself{
+    height: 30vh;
+    background-color: #0475ba;
+    
+}
+.myself h2{
+    text-align: center;
+    color: blue;
+    padding: 2rem;
+
+
+}
+.myself ul li{
+    margin-left: 30rem;
+    color: white;
+    
+}
+
+
+@media (max-width: 850px){
+ .myself{
+     height: auto;
+     
+    
+     
+ }
+ .myself ul {
+     padding-bottom: 10px;
+    
+ }
+ .myself ul li{
+     margin-left: 3rem;
+     margin-bottom: .5rem;
+ }
+ 
+ 
+
+}
+
+
+.my-exprience h2{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+.content{
+    padding: 15px;
+}
+
+.my-exprience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .my-exprience li {
+    margin-bottom: 5px;
+    padding: 5px;
+    
+  }
+  .my-exprience h4{
+      margin-bottom:1rem;
+  }
+  .my-exprience aside {
+    float: right;
+  }
+  @media (max-width: 850px){
+    .my-exprience{
+        height: auto;
+        
+    }
+  }
+     
+  .my-formation{
+      height: 25vh;
+      padding: 15px;
+    
+      background-color: #0475ba;
+  }
+  .my-formation h2{
+      padding: 10px;
+      text-align: center;
+      color: blue;
+    
+      
+  }
+  .my-formation ul{
+      list-style: none;
+  }
+  .my-formation li{
+      margin-bottom: 5px;
+      padding: 5px;
+      
+  }
+
+  .my-formation aside{
+      float: right;
+
+  }
+  @media (max-width: 850px){
+      .my-formation{
+          height: auto;
+          
+      }
+  }
+ .my-passion{
+     height: 15vh;
+    padding: 15px;
+ } 
+ .my-passion h2{
+     text-align: center;
+     color: royalblue;
+     margin-top: 10px;
+     
+ }
+ .my-passion p{
+     margin-bottom: 10px;
+ }
+
+.my-content{
+background-color:#0475ba ;
+
+}
+@media (max-width: 850px){
+    .my-passion{
+        height: auto;
+        
+    }
+}
+
+ footer{
+    padding: 40px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  footer ul li{
+      padding: 10px;
+  }
+  .links {
+    margin-bottom: 25px;
+    display: inline-block;
+    
+  }
+  
+
+
